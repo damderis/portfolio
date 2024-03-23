@@ -26,7 +26,7 @@ const AboutPage = () => {
                     <h1 className="text-3xl font-mono font-bold">
                         About</h1>
                     {/*description*/}
-                    <p className="text-lg text-justify font-mono bg-white ring-2 ring-red-800 rounded-sm p-4">
+                    <p className="text-lg font-mono bg-white ring-2 ring-red-800 rounded-sm p-4">
                         I am Adam Idris&lsquo; a dedicated enthusiast in computer science and 
                         design, honing my skills over several years. 
                         Currently in my third year of studying Computer Sciences 
