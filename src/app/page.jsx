@@ -18,7 +18,7 @@ const Homepage = () => {
         <h1 className="w-full text-3xl md:text-4xl font-mono text-black font-black">Simple, Efficient, Responsible</h1>
         {/*description*/}
         <p className="text-black md:text-lg text-justify font-mono">
-          Welcome to my homepage! I'm Adam Idris, 
+          Welcome to my homepage! I am Adam Idris, 
           a third-year student deeply passionate 
           about blending technical skill with astute 
           problem-solving. Join me on my 
