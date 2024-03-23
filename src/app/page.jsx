@@ -9,7 +9,7 @@ const Homepage = () => {
   transition={{duration:0.7}}>
   <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 lg:gap-8">
       {/*image container*/}
-      <div className="h-1/2 lg:h-full lg:w-1/2 relative">
+      <div className="h-1/2 lg:h-full lg:w-1/2 relative p-4">
         <Image src="/webport.png" alt="" fill className="object-contain"/>
       </div>
       {/*text container*/}
@@ -18,7 +18,7 @@ const Homepage = () => {
         <h1 className="w-full text-3xl md:text-4xl font-mono text-black font-black">Simple, Efficient, Responsible</h1>
         {/*description*/}
         <p className="text-black md:text-lg text-justify font-mono">
-          Welcome to my homepage! I am Adam Idris&lsquo; 
+          Welcome to my homepage! I am Adam Idris,
           a third-year student deeply passionate 
           about blending technical skill with astute 
           problem-solving. Join me on my 
