@@ -27,10 +27,10 @@ const AboutPage = () => {
                         About</h1>
                     {/*description*/}
                     <p className="text-lg text-justify font-mono bg-white ring-2 ring-red-800 rounded-sm p-4">
-                        I'm Adam Idris, a dedicated enthusiast in computer science and 
+                        I am Adam Idris, a dedicated enthusiast in computer science and 
                         design, honing my skills over several years. 
                         Currently in my third year of studying Computer Sciences 
-                        with a major in Computer Networks, I'm also delving 
+                        with a major in Computer Networks, I am also delving 
                         into software engineering frameworks and 
                         exploring the realm of business analytics in my spare time.
                         Looking ahead, my goal is to continue expanding my knowledge base, mastering new 
