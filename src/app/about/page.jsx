@@ -28,14 +28,14 @@ const AboutPage = () => {
                     {/*description*/}
                     <p className="text-lg text-justify font-mono bg-white ring-2 ring-red-800 rounded-sm p-4">
                         I am Adam Idris&lsquo; a dedicated enthusiast in computer science and 
-                        design&lsquo; honing my skills over several years. 
+                        design, honing my skills over several years. 
                         Currently in my third year of studying Computer Sciences 
-                        with a major in Computer Networks&lsquo; I am also delving 
+                        with a major in Computer Network, I am also delving 
                         into software engineering frameworks and 
                         exploring the realm of business analytics in my spare time.
-                        Looking ahead&lsquo; my goal is to continue expanding my knowledge base&lsquo; mastering new 
-                        technologies&lsquo; and ultimately giving back to society through impactful contributions. 
-                        With a steadfast commitment to growth and a passion for innovation&lsquo; I am poised to make 
+                        Looking ahead, my goal is to continue expanding my knowledge base, mastering new 
+                        technologies, and ultimately giving back to society through impactful contributions. 
+                        With a steadfast commitment to growth and a passion for innovation, I am poised to make 
                         meaningful strides in the ever-evolving field of technology.
 </p>
                         <div className="self-end"><svg width="100" height="100" viewBox="0 0 239 235" fill="none" xmlns="http://www.w3.org/2000/svg">
