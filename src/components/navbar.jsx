@@ -95,10 +95,10 @@ const Navbar = () => {
                 </button>
                 {/*menu list*/}
                 {open && (
-                <motion.div variants={listVariants} initial="closed" animate={open ? "opened" : "closed"} exit="closed" className="absolute top-0 right-0 w-1/2 h-screen bg-black text-white flex flex-col p-16 items-end justify-start gap-8 text-4xl z-40">
+                <motion.div variants={listVariants} initial="closed" animate={open ? "opened" : "closed"} exit="closed" className="absolute top-0 right-0 w-screen h-screen bg-black text-white flex flex-col p-16 items-center justify-top gap-8 text-4xl z-40">
                      {links.map((link) => (
                         <motion.div variants={listItemVariants} className="" key={link.title}>
-                         <Link href={link.url}  className="text-white font-mono font-bold z-50">{link.title}</Link>
+                         <Link href={link.url}  className="text-white font-mono font-bold">{link.title}</Link>
                         </motion.div>
                      ))}
                 </motion.div>

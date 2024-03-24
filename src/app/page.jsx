@@ -7,17 +7,17 @@ const Homepage = () => {
   initial={{y:"-200vh"}}
   animate={{y:"0%"}}
   transition={{duration:0.7}}>
-  <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 lg:gap-8">
+  <div className="h-full w-screen flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 lg:gap-8 overflow-scroll">
       {/*image container*/}
       <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-        <Image src="/webport.png" alt="" fill className="object-contain"/>
+        <Image src="/webport.png" alt="" fill className="object-contain mb-5"/>
       </div>
       {/*text container*/}
-      <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col justify-center items-center gap-8">
+      <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col justify-center gap-8">
         {/*title*/}
-        <h1 className="w-full text-3xl md:text-4xl font-mono text-black font-black">Simple, Efficient, Responsible</h1>
+        <h1 className="w-full text-xl sm:text-3xl md:text-4xl font-mono text-black font-black">Simple, Efficient, Responsible</h1>
         {/*description*/}
-        <p className="text-black md:text-lg text-justify font-mono">
+        <p className="text-black text-12px md:text-lg text-justify font-mono">
           Welcome to my homepage! I'm Adam Idris, 
           a third-year student deeply passionate 
           about blending technical skill with astute 
