@@ -15,9 +15,9 @@ const Homepage = () => {
       {/*text container*/}
       <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col justify-center items-center gap-8">
         {/*title*/}
-        <h1 className="w-full text-3xl md:text-4xl font-mono text-black font-black">Simple, Efficient, Responsible</h1>
+        <h1 className="w-full text-clamp md:text-4xl font-mono text-black font-black">Simple, Efficient, Responsible</h1>
         {/*description*/}
-        <p className="text-black md:text-lg font-mono">
+        <p className="text-black text-clamp md:text-lg font-mono">
           Welcome to my homepage! I am Adam Idris,
           a third-year student deeply passionate 
           about blending technical skill with astute 
