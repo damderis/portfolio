@@ -63,7 +63,6 @@ const AboutPage = () => {
                             <Skills skill="Next.js"/>
                             <Skills skill="Tailwind CSS"/>
                             <Skills skill="CSS"/>
-                            <Skills skill="ChatGPT"/>
                             <Skills skill="Node.js"/>
                             <Skills skill="GitHub"/>
                             <Skills skill="Figma"/>
