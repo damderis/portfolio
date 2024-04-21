@@ -80,9 +80,6 @@ const Navbar = () => {
                 <Link href="https://github.com/damderis">
                     <Image src="/github.png" alt="" width={24} height={24}/>
                 </Link>
-                <Link href="https://www.linkedin.com/in/adam-idris-976519218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                    <Image src="/linkedin.png" alt="" width={24} height={24}/>
-                </Link>
             </div>
             {/*responsive menu*/}
             <div className="md:hidden">
