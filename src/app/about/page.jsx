@@ -58,19 +58,19 @@ const AboutPage = () => {
                          animate={isSkillRefInView ? { x: 0 } : {}}
                          transition={{ delay: 0.4, duration: 0.5 }}
                             className="flex flex-wrap gap-4">
-                            <Skills skill="HTML"/>
-                            <Skills skill="Javascript"/>
-                            <Skills skill="Next.js"/>
-                            <Skills skill="Tailwind CSS"/>
-                            <Skills skill="CSS"/>
-                            <Skills skill="ChatGPT"/>
-                            <Skills skill="Node.js"/>
-                            <Skills skill="GitHub"/>
-                            <Skills skill="Figma"/>
-                            <Skills skill="AdobePhotoshop"/>
-                            <Skills skill="AdobeIllustrator"/>
-                            <Skills skill="AdobeXD"/>
-                            <Skills skill="AWS EC2"/>
+                            <Skills skill="HTML" img="/html.png"/>
+                            <Skills skill="Javascript" img="/js.png"/>
+                            <Skills skill="Next.js" img="/nextjs.png"/>
+                            <Skills skill="Tailwind CSS" img="/tailwindcss.png"/>
+                            <Skills skill="CSS" img="/css.png"/>
+                            <Skills skill="ChatGPT" img="/chatgpt.png"/>
+                            <Skills skill="Node.js" img="/nodejs.png"/>
+                            <Skills skill="GitHub" img="/github.png"/>
+                            <Skills skill="Figma" img="/figma.png"/>
+                            <Skills skill="AdobePhotoshop" img="/ap.png"/>
+                            <Skills skill="AdobeIllustrator" img="/ai.png"/>
+                            <Skills skill="AdobeXD" img="/axd.png"/>
+                            <Skills skill="FastAPI" img="/fastapi.png"/>
                             
                         </motion.div>
                         </div>
